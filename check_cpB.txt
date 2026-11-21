@@ -1,0 +1,12 @@
+File: export_final_v2.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+  [WARN] D02.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Nguồn: export_final_v2.zip trong thư mục repo. Đây là lượt kiểm lại phạm vi checkpoint từ bản cuối, sau khi hoàn thành gán nhãn.
+Schema dùng khi chạy: bản hiện tại trong repo.
+
+Giải thích cảnh báo dựa trên nhãn trong ZIP. Các mục cần xem ảnh vẫn chờ xác nhận trong CVAT.
+- D02.png, mắt trái — eye_left=unknown nhưng cả 4 điểm left_eye_* có occluded=0 và outside=0. Kiểm tra trên CVAT. Nếu thấy rõ mí, đặt open hoặc closed theo ảnh. Nếu điểm bị che, dùng occluded khi ước lượng được vị trí hoặc outside khi không xác định được (GUIDE §4.5–4.6).
+- D02.png, mắt phải — eye_right=unknown nhưng cả 4 điểm right_eye_* có occluded=0 và outside=0. Kiểm tra và làm nhất quán trạng thái mắt với các cờ điểm theo cùng quy tắc (GUIDE §4.5–4.6).

@@ -1,0 +1,10 @@
+File: export_final_v2.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: child_seat=2, face=2, infant_seat=4, person=2
+  [WARN] S02_rgb.png: SVIRO không gắn dây an toàn (trang data SVIRO): kiểm lại seatbelt
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Nguồn: export_final_v2.zip trong thư mục repo. Đây là lượt kiểm lại phạm vi checkpoint từ bản cuối, sau khi hoàn thành gán nhãn.
+Schema dùng khi chạy: bản hiện tại trong repo.
+
+Giải thích cảnh báo dựa trên nhãn trong ZIP. Các mục cần xem ảnh vẫn chờ xác nhận trong CVAT.
+- S02_rgb.png — ZIP ghi seatbelt=worn_incorrect. SVIRO chỉ dùng not_worn khi thấy rõ không có dây và unknown khi vùng dây bị che hoặc tối (GUIDE §4.7). Cần đối chiếu vùng dây trên CVAT.
