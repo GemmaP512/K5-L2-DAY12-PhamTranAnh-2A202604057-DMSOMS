@@ -5,8 +5,8 @@ Mã bộ ảnh **G01** · Hình thức **nhóm 3 người**
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Đối chiếu bài với | Số dòng review đã điền |
 |---|---|---|---|---|
 | Phạm Trần Anh | 2A202604057 | Có, đủ 22 tag `frame_meta` | Nguyễn Viết Minh | 5 |
-| Nguyễn Viết Minh | 2A202604043 | Bản export có 22 ảnh và đủ 22 tag `frame_meta` | Cao Văn Dương | 2 |
-| Cao Văn Dương | 2A202604056 | Có, đủ 22 tag `frame_meta` | Phạm Trần Anh | 19 |
+| Nguyễn Viết Minh | 2A202604043 | Bản export có 22 ảnh và đủ 22 tag `frame_meta` | Cao Văn Dương | 19 |
+| Cao Văn Dương | 2A202604056 | Có, đủ 22 tag `frame_meta` | Phạm Trần Anh | 5 |
 
 Vòng review của nhóm 3 người **Anh → Minh → Dương → Anh**.
 
